@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  server:
+    image: parseplatform/parse-server
+    environment:
+      - PARSE_SERVER_APPLICATION_ID=MyParseApp
+      - PARSE_SERVER_MASTER_KEY=adminadmin
+      - PARSE_SERVER_DATABASE_URI=mongodb://mongo/test
+    ports:
+      - 1337:1337
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
