@@ -4,4 +4,4 @@ server:
  - name: PARSE_SERVER_MASTER_KEY
    value: adminadmin 
  - name: PARSE_SERVER_DATABASE_URI
-   value: mongodb://mongo/test
+   value: postgres://postgres:postgres@postgres/postgres
