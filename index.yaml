@@ -42,4 +42,14 @@ entries:
     urls:
     - https://github.com/rfinland/ParseChart/releases/download/helm-parse-postgres-0.3.0/helm-parse-postgres-0.3.0.tgz
     version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-29T14:48:14.216130152Z"
+    description: A Helm chart for Kubernetes
+    digest: 7c6c697e9db7698bfecfc25d8014fc3ce286f38f33d4a137b8caf0d01e583d24
+    name: helm-parse-postgres
+    type: application
+    urls:
+    - https://github.com/rfinland/ParseChart/releases/download/helm-parse-postgres-0.2.0/helm-parse-postgres-0.2.0.tgz
+    version: 0.2.0
 generated: "2021-12-26T10:31:12.22459301Z"
