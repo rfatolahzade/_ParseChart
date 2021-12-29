@@ -1,0 +1,7 @@
+server:
+ - name: PARSE_SERVER_APPLICATION_ID
+   value: MyParseApp
+ - name: PARSE_SERVER_MASTER_KEY
+   value: adminadmin 
+ - name: PARSE_SERVER_DATABASE_URI
+   value: mongodb://mongo/test
