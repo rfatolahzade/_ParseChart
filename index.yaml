@@ -3,6 +3,16 @@ entries:
   helm-parse:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-01-08T12:59:53.15310286Z"
+    description: A Helm chart for Kubernetes
+    digest: 11ce4f7b38794800febf3baec415afac6c0417766c7e9d6c889c4f647e239853
+    name: helm-parse
+    type: application
+    urls:
+    - https://github.com/rfinland/_ParseChart/releases/download/helm-parse-0.6.0/helm-parse-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-12-27T06:42:28.742634713Z"
     description: A Helm chart for Kubernetes
     digest: 35c28e31b7b0470c99cc44dec8a83ce84589e46ae5214b314d2c1a1689940ff1
